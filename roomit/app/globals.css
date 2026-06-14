@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* -----------------------------------------------------------------------
+   Global styles for RoomIt.
+   Deliberately simple, flat colors only - NO gradients anywhere.
+----------------------------------------------------------------------- */
+
+:root {
+  --background: #f5f6f8;
+  --foreground: #1f2330;
+  --card: #ffffff;
+  --border: #d8dce3;
+  --primary: #2f5fdb;
+  --primary-hover: #2750bd;
+  --success: #1f9d55;
+  --danger: #d6473c;
+  --muted: #6b7280;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
